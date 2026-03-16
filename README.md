@@ -54,12 +54,6 @@ Source summaries:
   <img src="docs/readme_assets/model_snapshot.png" alt="Reconstructed model snapshot" width="49%" />
 </p>
 
-## Pipeline
-
-<p align="center">
-  <img src="docs/readme_assets/pipeline_overview.png" alt="Pipeline overview" width="100%" />
-</p>
-
 The main stages are:
 - Multi-view RGB-D sequence preparation.
 - Gaussian-style scene reconstruction from fused depth observations.
@@ -204,4 +198,3 @@ Showcase package:
 - This repo is optimized for reproducible portfolio-ready outputs.
 - Visual deliverables are intentionally limited to PNG and GIF.
 - If you want to publish the repo, the curated assets under `docs/readme_assets/` are already sized for GitHub README rendering.
-# inspection-scene-reconstruction
