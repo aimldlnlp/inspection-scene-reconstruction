@@ -1,0 +1,53 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.nox/
+.tox/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Notebook and local tool state
+.ipynb_checkpoints/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local secrets and environment overrides
+.env
+.env.*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Generated datasets and experiment artifacts
+data/
+outputs/
+outputs_ready/
+
+# Keep lightweight README showcase assets versioned
+!docs/
+!docs/readme_assets/
+!docs/readme_assets/*.gif
+!docs/readme_assets/*.png

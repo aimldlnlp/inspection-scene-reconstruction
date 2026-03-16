@@ -1,0 +1,15 @@
+dataset: data/indoor_inspection_v1
+output: outputs/indoor_run
+frames: 120
+width: 960
+height: 540
+test_stride: 8
+seed: 123
+depth_stride: 3
+source_stride: 1
+voxel_size: 0.02
+max_points: 220000
+render_mode: nearest_views
+source_k: 10
+hole_blend_distance: 12.0
+blur_sigma: 0.35
